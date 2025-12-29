@@ -1,0 +1,99 @@
+.loginBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(220deg, rgba(32, 93, 28, 1) 0%, rgba(24, 61, 18, 1) 100%);
+}
+
+.loginBody .waterBg img {
+    height: 595px;
+    mix-blend-mode: multiply;
+    opacity: 80%;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.loginBody .icon {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+}
+
+.loginBody .icon #snakeLogo {
+    height: 200px;
+}
+
+.loginBody #loginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginBody #loginForm p {
+    font-size: 25px;
+    font-weight: 500;
+    color: #e2e0de;
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.loginBody #loginForm input {
+    margin-bottom: 10px;
+    height: 40px;
+    width: 340px;
+    border: none;
+    padding-left: 10px;
+    background-color: #e2e0de;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 7px;
+}
+
+.loginBody #loginForm input::placeholder {
+    color: #545454;
+}
+
+.loginBody #loginForm input:focus {
+    outline: none;
+}
+
+.loginBody #loginForm button {
+    border: none;
+    padding: 0;
+    height: 40px;
+    width: 350px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #b2410e;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.loginBody #loginForm button:hover {
+    background-color: #9f3b0c;
+    transition: 0.3s ease-in-out;
+
+}
+
+.loginBody #loginForm a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+    width: 350px;
+    text-align: end;
+}
+
+.loginBody #loginForm a:hover {
+    text-decoration: underline;
+}

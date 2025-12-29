@@ -1,0 +1,141 @@
+.gameBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh;
+    background: linear-gradient(220deg, rgba(32, 93, 28, 1) 0%, rgba(24, 61, 18, 1) 100%);
+}
+
+.gameBody .bushBg img {
+    height: 590px;
+    mix-blend-mode: multiply;
+    opacity: 40%;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.gameBody .board {
+    width: 1000px;
+    height: 530px;
+    overflow: hidden;
+    margin-top: -15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    /* background-color: red; */
+}
+
+.gameBody .board p {
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+.gameBody .boardBg {
+    display: flex;
+    flex-direction: column;
+}
+
+.gameBody .boardBg #boardd {
+    height: 500px;
+}
+
+.gameBody .boardBg p {
+    font-size: 20px;
+    padding: 5px;
+    color: #fce24f;
+    font-weight: 500;
+    text-align: center;
+}
+
+.gameBody .boardText {
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gameBody .boardText img {
+    height: 70px;
+}
+
+.gameBody .boardDice {
+    height: 530px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gameBody .boardDice p {
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.gameBody .boardDice img {
+    height: 50px;
+}
+
+.gameBody .boardDice button {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+}
+
+.gameBody .playerDetails p {
+    text-align: left;
+    color: #fce24f;
+    padding: 0;
+    width: 120px;
+    /* border: 1px solid black; */
+}
+
+#player {
+    height: 50px;
+    mix-blend-mode: multiply;
+    position: absolute;
+    margin: 480px 410px;
+    z-index: 3;
+    transition: margin 0.3s ease-in-out;
+    /* x axis */
+    /* margin-left: 410px; */
+    /* margin-right: 410px; */
+    /* y axis */
+    /* margin-top: 480px; */
+    /* margin-bottom: 480px; */
+
+    /* x= +47 */
+    /* y= -47 */
+}
+
+#player2 {
+    height: 50px;
+    mix-blend-mode:multiply;
+    position: absolute;
+    margin: 480px 410px;
+    z-index: 3;
+    transition: margin 0.3s ease-in-out;
+    /* x axis */
+    /* margin-left: 410px; */
+    /* margin-right: 410px; */
+    /* y axis */
+    /* margin-top: 480px; */
+    /* margin-bottom: 480px; */
+
+    /* x= +47 */
+    /* y= -47 */
+}

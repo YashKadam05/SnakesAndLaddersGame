@@ -1,0 +1,48 @@
+.homeBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+   /* background-color:  #205d1c; */
+   background: linear-gradient(220deg,rgba(32, 93, 28, 1) 0%, rgba(24, 61, 18, 1) 100%);
+
+}
+
+.homeBody .mountBg img {
+    height: 750px;
+    mix-blend-mode: multiply;
+    opacity: 30%;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+
+.homeBody .icon {
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    margin-top: -80px;
+}
+
+.homeBody .icon #snakeLogo {
+    height: 300px;
+}
+
+.homeBody .icon #strtBtn {
+    height: 170px;
+    margin-top: -46px;
+    filter: brightness(70%);
+}
+
+.homeBody .icon #strtBtn:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+    transition: filter 0.3s ease-in-out;
+}
